@@ -1,4 +1,8 @@
 import React from "react";
+import "../../../App.css";
+
+import { Link } from "react-router-dom";
+
 function Login() {
   return (
     <div className="auth-wrapper">
@@ -37,11 +41,13 @@ function Login() {
                 </label>
               </div>
             </div>
-            <div className="row buttons-w">
+            <div className=".row-cols-2 buttons-w">
               <div>
                 <p>Don't have an account?</p>
               </div>
-              <button className="btn btn-primary">Register</button>
+              <Link to="/Signup">
+                <button className="col-12 btn btn-primary">Register</button>
+              </Link>
             </div>
           </form>
         </div>

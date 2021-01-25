@@ -23,9 +23,9 @@ export const DashNavBar = () => {
           </div>
           <div className="user__info">
             <h5 className="user__name">Hello, {userInfo.userName}</h5>
-            <h6 className="user__role">
+            {/* <h6 className="user__role">
               <i>{userInfo.userRole}</i>
-            </h6>
+            </h6> */}
           </div>
         </div>
       </div>

@@ -1,8 +1,35 @@
 import React from "react";
+import "./DashNavBar.css";
 
 export const DashNavBar = () => {
+  const userInfo = {
+    userName: "John Doe",
+    userRole: "Administrator",
+    avatar: "./img/avatar1.jpg",
+  };
   return (
-    <div></div>
+    <div className="navbar__container">
+      <div className="navbar__wrapper">
+        <div className="logo__container">
+          <a className="company__logo" href="/">
+            <img src="./logo.png" alt="Olive-Agro-logo" />
+          </a>
+          <h3>OLIVE AGRO</h3>
+        </div>
+
+        <div className="user__container">
+          <div className="user__avatar">
+            <img alt="" src={userInfo.avatar} />
+          </div>
+          <div className="user__info">
+            <h5 className="user__name">Hello, {userInfo.userName}</h5>
+            <h6 className="user__role">
+              <i>{userInfo.userRole}</i>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
 
     // <div className="menu-position-top full-screen">
     //   <div className="all-wrapper solid-bg-all">

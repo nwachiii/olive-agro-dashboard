@@ -8,16 +8,14 @@ import Signup from "./Components/views/Signup/Signup";
 
 function App() {
   return (
-    <div className="App">
-      <main>
-        <Switch>
-          <Route path="/" component={Login} exact />
-          <Route path="/Login" component={Login} />
-          <Route path="/Signup" component={Signup} />
-          <Route path="/Dashboard" component={Dashboard} />
-          <Route component={Error} />
-        </Switch>
-      </main>
+    <div className="app">
+      <Switch>
+        <Route path="/" component={Login} exact />
+        <Route path="/Login" component={Login} />
+        <Route path="/Signup" component={Signup} />
+        <Route path="/Dashboard" component={Dashboard} />
+        <Route component={Error} />
+      </Switch>
     </div>
   );
 }

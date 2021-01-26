@@ -12906,22 +12906,22 @@ strong {
   width: 40px;
   border-radius: 6px;
 }
-body.menu-position-side .layout-w {
+div.menu-position-side .layout-w {
   display: -webkit-box;
   display: flex;
 }
-body.menu-position-side .content-w {
+div.menu-position-side .content-w {
   border-radius: 0px 6px 6px 0px;
   -webkit-box-flex: 1;
   flex: 1;
 }
-body.menu-position-top .content-w {
+div.menu-position-top .content-w {
   border-radius: 0px 0px 6px 6px;
 }
-body.menu-position-top .top-bar + .layout-w .menu-w {
+div.menu-position-top .top-bar + .layout-w .menu-w {
   border-radius: 0px;
 }
-body.menu-side-right .layout-w {
+div.menu-side-right .layout-w {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   flex-direction: row-reverse;

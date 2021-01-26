@@ -1,10 +1,12 @@
 import React from "react";
-import { DashNavBar } from "./Navbar/DashNavBar";
+// import { DashNavBar } from "./Navbar/DashNavBar";
+import { DashSideBar } from "./SideBar/DashSideBar";
 
 function Dashboard() {
   return (
     <>
-      <DashNavBar />
+      {/* <DashNavBar /> */}
+      <DashSideBar />
     </>
   );
 }

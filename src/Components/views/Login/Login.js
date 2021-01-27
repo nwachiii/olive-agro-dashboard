@@ -33,7 +33,9 @@ function Login() {
               <div className="pre-icon os-icon os-icon-fingerprint"></div>
             </div>
             <div className="buttons-w">
-              <button className="btn btn-primary">Log me in</button>
+              <Link to="/Dashboard">
+                <button className="btn btn-primary">Log me in</button>
+              </Link>
               <div className="form-check-inline">
                 <label className="form-check-label">
                   <input className="form-check-input" type="checkbox" />

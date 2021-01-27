@@ -10,7 +10,7 @@ export const DashSideBar = () => {
           <div className="logo-w menu-size">
             <Link className="logo" to="/Dashboard">
               <div className="logo-element"></div>
-              <div className="logo-label">Clean Admin</div>
+              <div className="logo-label">Olive Agro</div>
             </Link>
           </div>
           <div className="fancy-selector-w">
@@ -19,10 +19,10 @@ export const DashSideBar = () => {
                 <img alt="" src="img/card1.png" />
               </div>
               <div className="fs-main-info">
-                <div className="fs-name">American Express Platinum</div>
+                <div className="fs-name">Agro Express Platinum</div>
                 <div className="fs-sub">
                   <span>Balance:</span>
-                  <strong>$5,304</strong>
+                  <strong>#5,304</strong>
                 </div>
               </div>
               <div className="fs-extra-info">
@@ -42,7 +42,7 @@ export const DashSideBar = () => {
                   <div className="fs-name">Capital One Venture Card</div>
                   <div className="fs-sub">
                     <span>Balance:</span>
-                    <strong>$5,304</strong>
+                    <strong>#5,304</strong>
                   </div>
                 </div>
                 <div className="fs-extra-info">
@@ -58,7 +58,7 @@ export const DashSideBar = () => {
                   <div className="fs-name">American Express Platinum</div>
                   <div className="fs-sub">
                     <span>Balance:</span>
-                    <strong>$8,274</strong>
+                    <strong>#8,274</strong>
                   </div>
                 </div>
                 <div className="fs-extra-info">
@@ -74,7 +74,7 @@ export const DashSideBar = () => {
                   <div className="fs-name">CitiBank Preferred Credit</div>
                   <div className="fs-sub">
                     <span>Balance:</span>
-                    <strong>$1,202</strong>
+                    <strong>#1,202</strong>
                   </div>
                 </div>
                 <div className="fs-extra-info">
@@ -191,7 +191,7 @@ export const DashSideBar = () => {
                       <img alt="" src="img/avatar1.jpg" />
                     </div>
                     <div className="logged-user-info-w">
-                      <div className="logged-user-name">Maria Gomez</div>
+                      <div className="logged-user-name">Ishola Babalola</div>
                       <div className="logged-user-role">Administrator</div>
                     </div>
                   </div>
@@ -377,7 +377,7 @@ export const DashSideBar = () => {
                   <img alt="" src="img/avatar1.jpg" />
                 </div>
                 <div className="logged-user-info-w">
-                  <div className="logged-user-name">Maria Gomez</div>
+                  <div className="logged-user-name">Ishola Babalola</div>
                   <div className="logged-user-role">Administrator</div>
                 </div>
               </div>
@@ -812,7 +812,7 @@ export const DashSideBar = () => {
                   <img alt="" src="img/avatar1.jpg" />
                 </div>
                 <div className="logged-user-info-w">
-                  <div className="logged-user-name">Maria Gomez</div>
+                  <div className="logged-user-name">Ishola Babalola</div>
                   <div className="logged-user-role">Administrator</div>
                 </div>
                 <div className="logged-user-toggler-arrow">
@@ -824,7 +824,7 @@ export const DashSideBar = () => {
                       <img alt="" src="img/avatar1.jpg" />
                     </div>
                     <div className="logged-user-info-w">
-                      <div className="logged-user-name">Maria Gomez</div>
+                      <div className="logged-user-name">Ishola Babalola</div>
                       <div className="logged-user-role">Administrator</div>
                     </div>
                   </div>
@@ -878,7 +878,7 @@ export const DashSideBar = () => {
                           <img alt="" src="img/avatar1.jpg" />
                         </div>
                         <div className="message-content">
-                          <h6 className="message-from">John Mayers</h6>
+                          <h6 className="message-from">John Ade</h6>
                           <h6 className="message-title">Account Update</h6>
                         </div>
                       </Link>
@@ -889,7 +889,7 @@ export const DashSideBar = () => {
                           <img alt="" src="img/avatar2.jpg" />
                         </div>
                         <div className="message-content">
-                          <h6 className="message-from">Phil Jones</h6>
+                          <h6 className="message-from">Joseph Chima</h6>
                           <h6 className="message-title">Secutiry Updates</h6>
                         </div>
                       </Link>
@@ -900,7 +900,7 @@ export const DashSideBar = () => {
                           <img alt="" src="img/avatar3.jpg" />
                         </div>
                         <div className="message-content">
-                          <h6 className="message-from">Bekky Simpson</h6>
+                          <h6 className="message-from">Bekky Daudu</h6>
                           <h6 className="message-title">Vacation Rentals</h6>
                         </div>
                       </Link>
@@ -911,7 +911,7 @@ export const DashSideBar = () => {
                           <img alt="" src="img/avatar4.jpg" />
                         </div>
                         <div className="message-content">
-                          <h6 className="message-from">Alice Priskon</h6>
+                          <h6 className="message-from">Alice Johnson</h6>
                           <h6 className="message-title">
                             Payment Confirmation
                           </h6>
@@ -969,7 +969,7 @@ export const DashSideBar = () => {
                           <img alt="" src="img/avatar1.jpg" />
                         </div>
                         <div className="message-content">
-                          <h6 className="message-from">John Mayers</h6>
+                          <h6 className="message-from">John Ade</h6>
                           <h6 className="message-title">Account Update</h6>
                         </div>
                       </Link>
@@ -980,7 +980,7 @@ export const DashSideBar = () => {
                           <img alt="" src="img/avatar2.jpg" />
                         </div>
                         <div className="message-content">
-                          <h6 className="message-from">Phil Jones</h6>
+                          <h6 className="message-from">Joseph Chima</h6>
                           <h6 className="message-title">Secutiry Updates</h6>
                         </div>
                       </Link>
@@ -991,7 +991,7 @@ export const DashSideBar = () => {
                           <img alt="" src="img/avatar3.jpg" />
                         </div>
                         <div className="message-content">
-                          <h6 className="message-from">Bekky Simpson</h6>
+                          <h6 className="message-from">Bekky Daudu</h6>
                           <h6 className="message-title">Vacation Rentals</h6>
                         </div>
                       </Link>
@@ -1002,7 +1002,7 @@ export const DashSideBar = () => {
                           <img alt="" src="img/avatar4.jpg" />
                         </div>
                         <div className="message-content">
-                          <h6 className="message-from">Alice Priskon</h6>
+                          <h6 className="message-from">Alice Johnson</h6>
                           <h6 className="message-title">
                             Payment Confirmation
                           </h6>

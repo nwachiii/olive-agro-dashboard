@@ -361,7 +361,7 @@ export const DashSideBar = () => {
             <div className="mm-logo-buttons-w">
               <Link className="mm-logo" to="/">
                 <img src="img/logo.png" alt="" />
-                <span>Clean Admin</span>
+                <span>Olive Admin</span>
               </Link>
               <div className="mm-buttons">
                 <div className="content-panel-open">
@@ -383,7 +383,7 @@ export const DashSideBar = () => {
                 </div>
               </div>
               <ul className="main-menu">
-                <li className="has-sub-menu">
+                {/*<li className="has-sub-menu">
                   <Link to="/">
                     <div className="icon-w">
                       <div className="os-icon os-icon-layout"></div>
@@ -642,7 +642,7 @@ export const DashSideBar = () => {
                       <Link to="/uikit_typography ">Typography</Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="has-sub-menu">
                   <Link to="/#">
                     <div className="icon-w">
@@ -1719,7 +1719,11 @@ export const DashSideBar = () => {
                               <span className="smaller lighter">1:52am</span>
                             </td>
                             <td className="cell-with-media">
-                              <img alt="" src="img/company1.png" />
+                              {/* <img
+                                className="cell__row__img"
+                                alt=""
+                                src="img/company1.png"
+                              /> */}
                               <span>Banana Shakes LLC</span>
                             </td>
                             <td className="text-center">
@@ -1741,7 +1745,11 @@ export const DashSideBar = () => {
                               <span className="smaller lighter">3:22pm</span>
                             </td>
                             <td className="cell-with-media">
-                              <img alt="" src="img/company2.png" />
+                              {/* <img
+                                alt=""
+                                className="cell__row__img"
+                                src="img/company2.png"
+                              /> */}
                               <span>Stripe Payment Processing</span>
                             </td>
                             <td className="text-center">
@@ -1761,7 +1769,11 @@ export const DashSideBar = () => {
                               <span className="smaller lighter">7:45am</span>
                             </td>
                             <td className="cell-with-media">
-                              <img alt="" src="img/company3.png" />
+                              {/* <img
+                                className="cell__row__img"
+                                alt=""
+                                src="img/company3.png"
+                              /> */}
                               <span>MailChimp Services</span>
                             </td>
                             <td className="text-center">
@@ -1783,7 +1795,11 @@ export const DashSideBar = () => {
                               <span className="smaller lighter">2:12pm</span>
                             </td>
                             <td className="cell-with-media">
-                              <img alt="" src="img/company1.png" />
+                              {/* <img
+                                className="cell__row__img"
+                                alt=""
+                                src="img/company1.png"
+                              /> */}
                               <span>Starbucks Cafe</span>
                             </td>
                             <td className="text-center">
@@ -1805,7 +1821,7 @@ export const DashSideBar = () => {
                               <span className="smaller lighter">9:51am</span>
                             </td>
                             <td className="cell-with-media">
-                              <img alt="" src="img/company4.png" />
+                              {/* <img alt="" src="img/company4.png" /> */}
                               <span>Ebay Marketplace</span>
                             </td>
                             <td className="text-center">
@@ -1827,7 +1843,7 @@ export const DashSideBar = () => {
                               <span className="smaller lighter">12:45pm</span>
                             </td>
                             <td className="cell-with-media">
-                              <img alt="" src="img/company2.png" />
+                              {/* <img alt="" src="img/company2.png" /> */}
                               <span>Envato Templates Inc</span>
                             </td>
                             <td className="text-center">

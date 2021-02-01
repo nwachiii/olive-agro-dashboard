@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import DemoChat from "../DemoChat/DemoChat";
+// import DemoChat from "../DemoChat/DemoChat";
 import "./DashSideBar.css";
 
 export const DashSideBar = () => {
@@ -72,7 +72,7 @@ export const DashSideBar = () => {
                   <img alt="" src="img/card3.png" />
                 </div>
                 <div className="fs-main-info">
-                  <div className="fs-name">CitiBank Preferred Credit</div>
+                  <div className="fs-name">GTBank</div>
                   <div className="fs-sub">
                     <span>Balance:</span>
                     <strong>#1,202</strong>
@@ -669,7 +669,7 @@ export const DashSideBar = () => {
                   </ul>
                 </li>
                 <li className="has-sub-menu">
-                  <Link to="/#">
+                  <Link to="">
                     <div className="icon-w">
                       <div className="os-icon os-icon-users"></div>
                     </div>
@@ -1550,7 +1550,7 @@ export const DashSideBar = () => {
                           <div className="balance hidden-mobile">
                             <div className="balance-title">Total Balance</div>
                             <div className="balance-value">
-                              <span>$350</span>
+                              <span>#350</span>
                               <span className="trending trending-down-basic">
                                 <span>%12</span>
                                 <i className="os-icon os-icon-arrow-2-down"></i>
@@ -1570,7 +1570,7 @@ export const DashSideBar = () => {
                             <div className="balance-title">
                               Credit Available
                             </div>
-                            <div className="balance-value">$17,800</div>
+                            <div className="balance-value">#17,800</div>
                             <div className="balance-link">
                               <Link
                                 className="btn btn-link btn-underlined"
@@ -1583,7 +1583,7 @@ export const DashSideBar = () => {
                           </div>
                           <div className="balance">
                             <div className="balance-title">Due Today</div>
-                            <div className="balance-value danger">$180</div>
+                            <div className="balance-value danger">#1,800</div>
                             <div className="balance-link">
                               <Link
                                 className="btn btn-link btn-underlined btn-gold"
@@ -1596,7 +1596,7 @@ export const DashSideBar = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="col-lg-5 col-xxl-6">
+                      {/* <div className="col-lg-5 col-xxl-6">
                         <div className="alert alert-warning borderless">
                           <h5 className="alert-heading">
                             Refer Friends. Get Rewarded
@@ -1613,7 +1613,7 @@ export const DashSideBar = () => {
                             </Link>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -1661,7 +1661,7 @@ export const DashSideBar = () => {
                                     value="0"
                                   />
                                   <div className="input-group-append">
-                                    <div className="input-group-text">USD</div>
+                                    <div className="input-group-text">NGN</div>
                                   </div>
                                 </div>
                               </div>
@@ -1672,11 +1672,9 @@ export const DashSideBar = () => {
                                   Transfer to
                                 </label>
                                 <select className="form-control">
-                                  <option value="">Citibank *6382</option>
-                                  <option value="">Chase *8372</option>
-                                  <option value="">
-                                    Bank of America *7363
-                                  </option>
+                                  <option value="">GTBank</option>
+                                  <option value="">UBA</option>
+                                  <option value="">Access Bank</option>
                                 </select>
                               </div>
                             </div>
@@ -1730,7 +1728,7 @@ export const DashSideBar = () => {
                               </Link>
                             </td>
                             <td className="text-right bolder nowrap">
-                              <span className="text-success">+ 1,250 USD</span>
+                              <span className="text-success">+ 1,250 NGN</span>
                             </td>
                           </tr>
                           <tr>
@@ -1750,7 +1748,7 @@ export const DashSideBar = () => {
                               <Link className="badge badge-danger">Cafe</Link>
                             </td>
                             <td className="text-right bolder nowrap">
-                              <span className="text-success">+ 952.23 USD</span>
+                              <span className="text-success">+ 952.23 NGN</span>
                             </td>
                           </tr>
                           <tr>
@@ -1772,7 +1770,7 @@ export const DashSideBar = () => {
                               </Link>
                             </td>
                             <td className="text-right bolder nowrap">
-                              <span className="text-danger">- 320 USD</span>
+                              <span className="text-danger">- 320 NGN</span>
                             </td>
                           </tr>
                           <tr>
@@ -1794,7 +1792,7 @@ export const DashSideBar = () => {
                               </Link>
                             </td>
                             <td className="text-right bolder nowrap">
-                              <span className="text-success">+ 17.99 USD</span>
+                              <span className="text-success">+ 17.99 NGN</span>
                             </td>
                           </tr>
                           <tr>
@@ -1816,7 +1814,7 @@ export const DashSideBar = () => {
                               </Link>
                             </td>
                             <td className="text-right bolder nowrap">
-                              <span className="text-danger">- 244 USD</span>
+                              <span className="text-danger">- 244 NGN</span>
                             </td>
                           </tr>
                           <tr>
@@ -1838,7 +1836,7 @@ export const DashSideBar = () => {
                               </Link>
                             </td>
                             <td className="text-right bolder nowrap">
-                              <span className="text-success">+ 340 USD</span>
+                              <span className="text-success">+ 340 NGN</span>
                             </td>
                           </tr>
                         </tbody>
@@ -1846,7 +1844,7 @@ export const DashSideBar = () => {
                     </div>
                   </div>
                 </div>
-                <div className="floated-colors-btn second-floated-btn">
+                {/* <div className="floated-colors-btn second-floated-btn">
                   <div className="os-toggler-w">
                     <div className="os-toggler-i">
                       <div className="os-toggler-pill"></div>
@@ -1860,8 +1858,8 @@ export const DashSideBar = () => {
                     <i className="os-icon os-icon-ui-46"></i>
                   </div>
                   <span>Customizer</span>
-                </div>
-                <div className="floated-customizer-panel">
+                </div> */}
+                {/* <div className="floated-customizer-panel">
                   <div className="fcp-content">
                     <div className="close-customizer-btn">
                       <i className="os-icon os-icon-x"></i>
@@ -1960,8 +1958,8 @@ export const DashSideBar = () => {
                       </div>
                     </div>
                   </div>
-                </div>
-                <DemoChat />
+                </div> */}
+                {/* <DemoChat /> */}
               </div>
             </div>
           </div>
